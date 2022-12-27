@@ -1,0 +1,53 @@
+#langingContent
+{
+    background-color: #404258;
+    min-height: 100vh;
+    color : white;
+    font-family: 'Questrial', serif;
+    font-size: 58px;
+}
+.landingButton
+{
+    font-family: 'Questrial', serif;
+    font-size: 50px;
+    height: 70px;
+    background-color: #caf7e3;
+    border-radius: 15px;
+    text-align: center;
+    margin: 7px;
+}
+button:hover{
+    transform: scale(1.12);
+}
+button
+{
+    transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 600px) {
+    .landingButton, #langingContent
+    {
+        font-family: 'Questrial', serif;
+        font-size: 40px;
+    }
+    .landingButton
+    {
+        width : 300px;
+        font-size: 30px;
+    }
+}
+#socialLinks
+{
+    font-size: 20px;
+}
+.slink
+{
+    font-size: 30px;
+}
+a:hover{
+    transform: scale(1.12);
+}
+a
+{
+    transition: all 0.3s linear;
+}
